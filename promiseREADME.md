@@ -30,7 +30,7 @@ promise1.then(function(value) {
 console.log(value);
 // expected output: "foo"
 });
-//as we can see we can't just use promise, we have to login
+//as we can see we can't just use promise, we have to subscribe to its result
 console.log(promise1);
 // expected output: [object Promise]
 ```
